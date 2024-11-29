@@ -1,0 +1,4 @@
+name: genai_training_aj_sail
+channels:
+  - defaults
+prefix: /opt/anaconda3/envs/genai_training_aj_sail
