@@ -23,6 +23,8 @@ import uuid
 st.set_page_config(page_title="SAIL AI Copilot",layout="wide")
 st.title("SAIL AI Copilot")
 
+import os
+
 # Load the API Key securely
 OPENAI_API_KEY = yaml.safe_load(open('credentials.yml'))['openai']
 
